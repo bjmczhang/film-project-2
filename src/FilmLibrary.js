@@ -15,7 +15,7 @@ function FilmLibrary() {
   const sectionCount = films.length;
   const favesCount = faves.length;
 
-  const READ_ACCESS_TOKEN = process.env.REACT_APP_READ_ACCESS_TOKEN;
+  const READ_ACCESS_TOKEN = process.env.REACT_APP_TMDB_READ_ACCESS_TOKEN;
 
   const options = {
     method: "GET",
